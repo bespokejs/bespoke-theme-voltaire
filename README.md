@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/markdalgleish/bespoke-theme-voltaire.png?branch=master)](https://travis-ci.org/markdalgleish/bespoke-theme-voltaire) [![Coverage Status](https://coveralls.io/repos/markdalgleish/bespoke-theme-voltaire/badge.png)](https://coveralls.io/r/markdalgleish/bespoke-theme-voltaire)
+[![Build Status](https://secure.travis-ci.org/markdalgleish/bespoke-theme-voltaire.png?branch=master)](https://travis-ci.org/markdalgleish/bespoke-theme-voltaire)
 
 # bespoke-theme-voltaire
 
