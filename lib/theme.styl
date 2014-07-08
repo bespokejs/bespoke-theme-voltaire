@@ -1,0 +1,117 @@
+@import 'normalizecss/normalize.css'
+
+$background = #111
+$orange = #F30
+$serif = didot, times new roman, serif
+$sans-serif = gill sans, helvetica, arial, arial, sans-serif
+$monospace = prestige elite std, consolas, courier new, monospace
+$emdash = '\2014'
+
+*
+  margin: 0
+  padding: 0
+
+.bespoke-parent
+  font-size: 1.5em
+  background: $background
+  color: #fff
+  font-family: $sans-serif
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  text-align: center
+  transition: background 1s ease
+  background-position: 50% 50%
+
+.bespoke-slide
+  transition: opacity .3s ease
+  width: 720px
+  height: 480px
+  position: absolute
+  top: 50%
+  left: 50%
+  margin-left: -(@width / 2)
+  margin-top: -(@height / 2)
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+.bespoke-active
+  transition-delay: .3s
+
+.bespoke-inactive
+  opacity: 0
+  pointer-events: none
+
+.bespoke-bullet
+  transition: opacity .3s ease
+
+.bespoke-bullet-inactive
+  opacity: 0
+
+strong
+  font-weight: 400
+
+h1 strong
+  font-weight: 600
+
+h1, h2, h3, p, li
+  padding-left: 20px
+  padding-right: 20px
+
+h1, h2, h3, p, li, pre
+  font-weight: 200
+
+h1
+  font-family: $serif
+  font-style: italic
+
+h1
+  margin: 0.17em 0
+
+h2
+  font-family: $sans-serif
+  font-style: normal
+  font-weight: normal
+  font-size: 1.1em
+  margin: 0.1em 0
+
+h3
+  font-style: normal
+  font-size: .6em
+  margin: 1.1em 0
+
+ul, ol
+  padding: 0
+  margin: 0
+  text-align: left
+
+li
+  list-style: none
+  margin: .2em
+  font-style: normal
+  transform: translateX(-6px)
+  &:before
+    content: $emdash
+    margin-right: 4px
+
+pre
+  background: none !important
+
+code
+  font-family: $monospace !important
+  font-style: normal
+  font-weight: 200 !important
+  text-align: left
+
+a
+  color: currentColor
+  text-decoration: none
+  border-bottom: 1px solid currentColor
+
+.emphatic
+  background: #F30
+  text-shadow: 0px 2px 0 rgba(0, 0, 0, 0.75)
