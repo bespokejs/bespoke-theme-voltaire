@@ -16,6 +16,9 @@
   "scripts": {
     "test": "gulp"
   },
+  "peerDependencies": {
+    "bespoke": ">=1.0.0-beta"
+  },
   "devDependencies": {
     "bespoke": "^1.0.0",
     "bespoke-bullets": "^1.0.0",
