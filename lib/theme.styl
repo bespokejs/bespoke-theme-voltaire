@@ -2,6 +2,7 @@
 
 $background = #111
 $orange = #F30
+$white = #FFF
 $serif = didot, times new roman, serif
 $sans-serif = gill sans, helvetica, arial, arial, sans-serif
 $monospace = prestige elite std, consolas, courier new, monospace
@@ -14,7 +15,7 @@ $emdash = '\2014'
 .bespoke-parent
   font-size: 1.5em
   background: $background
-  color: #fff
+  color: $white
   font-family: $sans-serif
   position: absolute
   top: 0
@@ -45,6 +46,21 @@ $emdash = '\2014'
 .bespoke-inactive
   opacity: 0
   pointer-events: none
+
+.bespoke-progress-parent
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  height: .3vw
+
+.bespoke-progress-bar
+  background: $white
+  position: absolute
+  top: 0
+  left: 0
+  height: 100%
+  transition: width 1s ease
 
 .bespoke-bullet
   transition: opacity .3s ease
