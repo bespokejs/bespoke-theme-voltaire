@@ -1,6 +1,6 @@
 {
   "name": "bespoke-theme-voltaire",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "./dist/bespoke-theme-voltaire.js",
   "ignore": [
     "**/.*"
