@@ -1,5 +1,5 @@
 /*!
- * bespoke-theme-voltaire v0.1.1
+ * bespoke-theme-voltaire v0.1.2
  *
  * Copyright 2014, Mark Dalgleish
  * This content is released under the MIT license
