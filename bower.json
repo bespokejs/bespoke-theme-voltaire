@@ -1,11 +1,11 @@
 {
   "name": "bespoke-theme-voltaire",
-  "version": "0.1.3",
+  "version": "1.0.1",
   "main": "./dist/bespoke-theme-voltaire.js",
   "ignore": [
     "**/.*"
   ],
   "dependencies": {
-    "bespoke.js": ">=1.0.0-beta"
+    "bespoke.js": ">=1.0.0"
   }
 }
