@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/markdalgleish/bespoke-theme-voltaire.png?branch=master)](https://travis-ci.org/markdalgleish/bespoke-theme-voltaire)
+[![Build Status](http://img.shields.io/travis/markdalgleish/bespoke-theme-voltaire/master.svg?style=flat)](https://travis-ci.org/markdalgleish/bespoke-theme-voltaire)
 
 # bespoke-theme-voltaire
 
